@@ -13,7 +13,7 @@ begin
     
     gem.add_dependency "sinatra", ">= 0"
     gem.add_dependency "thin", ">= 0"
-    gem.add_dependency "skinny", ">= 0"
+    gem.add_dependency "skinny", ">= 0.1.2"
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
